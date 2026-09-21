@@ -1,0 +1,47 @@
+site_name: Relay Networks for Everyone
+site_description: A beginner-friendly path from AF, DF, and CF to Noisy Network Coding and modern relay information theory.
+repo_name: relay-networks-for-everyone
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Part I — Why Relays?:
+      - 1. Why Relays?: 01-why-relays.md
+      - 2. AF, DF, and CF: 02-af-df-cf.md
+  - Part II — Minimum Information Theory:
+      - 3. Information in One Picture: 03-information.md
+      - 4. Mutual Information: 04-mutual-information.md
+      - 5. Channel Capacity: 05-channel-capacity.md
+  - Part III — Relay and Network Coding:
+      - 6. The Relay Channel: 06-relay-channel.md
+      - 7. Network Coding: 07-network-coding.md
+  - Part IV — Noisy Network Coding:
+      - 8. Noisy Network Coding: 08-noisy-network-coding.md
+      - 9. Reading the NNC Figures: 09-reading-nnc-figures.md
+  - Part V — Beyond Classical NNC:
+      - 10. Short-Message NNC: 10-short-message-nnc.md
+      - 11. Hybrid DF + NNC: 11-hybrid-nnc.md
+      - 12. Correlated Relay Observations: 12-correlated-relays.md
+      - 13. Finite Blocklength and One-Shot Coding: 13-finite-blocklength.md
+  - Part VI — Modern Directions:
+      - 14. Structured Relay Coding: 14-structured-coding.md
+      - 15. Learned Relay Coding: 15-learned-relay-coding.md
+      - 16. Open Problems: 16-open-problems.md
