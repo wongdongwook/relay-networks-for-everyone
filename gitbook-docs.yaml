@@ -1,0 +1,13 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+
+site:
+  title: Relay Networks for Everyone
+
+structure:
+  - type: space
+    key: relay-networks
+    title: Relay Networks for Everyone
+    path: docs
+    default: true
+    content:
+      directory: ./
